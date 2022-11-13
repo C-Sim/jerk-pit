@@ -116,7 +116,7 @@ export const Footer = ({ footerItems }) => {
               fontWeight: 100,
             }}
           >
-            123 Nelson St | Newtown | Birmingham | B1 1BB
+            20 High St | Sutton Coldfield | Birmingham | B72 1UX
           </Typography>
         </Stack>
       </Grid>

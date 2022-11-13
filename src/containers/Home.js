@@ -1,7 +1,10 @@
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
+import Avatar from "@mui/material/Avatar";
 
 import logo from "../components/atoms/images/Logo.png";
+import { AvatarBadge } from "../components/atoms/Avatar";
+import { PageTitle } from "../components/atoms/PageTitle";
 
 import Box from "@mui/material/Box";
 import Divider from "@mui/material/Divider";
@@ -14,7 +17,7 @@ export const Home = () => {
   const isMobile = useMediaQuery("(max-width:600px)");
 
   return (
-    <Box>
+    <Box align="center">
       <Box
         sx={{
           width: "100vw",
@@ -36,79 +39,46 @@ export const Home = () => {
           }}
         />
       </Box>
-
       <Box sx={{ mb: 4, width: "100vw", margin: 0 }}>
-        <Grid
-          container
+        <Box
+          align="center"
           sx={{
-            mb: 4,
-            ml: 0,
-            display: "flex",
-            flexDirection: isMobile ? "column" : "row",
-            alignItems: "center",
-            justifyContent: "center",
-            width: "100%",
+            mt: isMobile ? 1 : 4,
+            padding: 1,
           }}
         >
-          <Grid
-            item
-            className="about-container"
-            xs={12}
-            sm={3}
-            md={3}
-            sx={{ mt: 6, pl: 0, ml: isMobile ? 0 : 4 }}
-          >
-            <img src={logo} alt={"logo"} width="148px" className="me" />
-          </Grid>
-          <Grid item xs={10} sm={8} md={8}>
-            <Box
-              align="center"
-              sx={{
-                mt: isMobile ? 1 : 8,
-                padding: 1,
-              }}
-            >
-              <Typography sx={{ mb: 2, color: "#000000ff", fontWeight: 100 }}>
-                An established business professional with extensive experience
-                in management roles within large and reputable companies.
-              </Typography>
+          <PageTitle title="About Us" />
 
-              <Divider />
-
-              <Typography
-                sx={{ mt: 2, mb: 2, color: "#000000ff", fontWeight: 100 }}
-              >
-                Passionate about merging logic with creativity to create
-                functional apps, intuitive APIs and aesthetic interfaces.
-              </Typography>
-
-              <Divider />
-
-              <Typography
-                sx={{ mt: 2, mb: 2, color: "#000000ff", fontWeight: 100 }}
-              >
-                {" "}
-                Naturally creative and an adept problem-solver with proficiency
-                in a wide range of coding languages and skills.
-              </Typography>
-
-              <Divider />
-
-              <Typography
-                align="center"
-                sx={{
-                  mt: 2,
-                  color: "#000000ff",
-                  fontWeight: 100,
-                  fontSize: 14,
-                }}
-              >
-                Find more detail <NavLink to="/cv">here</NavLink>.
-              </Typography>
-            </Box>
-          </Grid>
-        </Grid>
+          <Typography sx={{ m: 2, color: "#000000ff", fontWeight: 100 }}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </Typography>
+        </Box>
       </Box>
+
+      <Grid
+        container
+        sx={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <Grid item xs={12} md={4} mt={2}>
+          <img alt={"logo"} src={logo} width="80%" className="aboutImage" />
+        </Grid>
+        <Grid item xs={12} md={4} mt={2}>
+          <img alt={"logo"} src={logo} width="80%" className="aboutImage" />
+        </Grid>
+        <Grid item xs={12} md={4} mt={2}>
+          <img alt={"logo"} src={logo} width="80%" className="aboutImage" />
+        </Grid>
+      </Grid>
     </Box>
   );
 };

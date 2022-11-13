@@ -114,10 +114,9 @@ a:hover {
   background-color: none;
 }
 
-.me {
+.aboutImage {
   border-radius: 50%;
   box-shadow: 0 0 24px 24px var(--cjp-light-grey);
-  margin-left: 1.8rem;
 }
 
 .portfolio-card:hover {
