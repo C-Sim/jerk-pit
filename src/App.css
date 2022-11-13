@@ -91,7 +91,6 @@ a {
 
 .link:hover,
 .icon:hover,
-.button:hover,
 a:hover {
   color: var(--cjp-red);
 }
@@ -105,13 +104,21 @@ a:hover {
   flex-grow: 1;
 }
 
+.event-figure {
+  position: relative;
+  float: left;
+}
+
 .image-bar {
   color: var(--cjp-white);
-  position: relative;
-  top: 105%;
-  right: 24px;
-  font-size: 8px;
-  background-color: none;
+  display: block;
+  float: left;
+  position: absolute;
+  top: 0;
+  padding: 8px;
+  font-size: 18px;
+  background-color: var(--cjp-dark-grey);
+  opacity: 72%;
 }
 
 .aboutImage {
@@ -119,12 +126,8 @@ a:hover {
   box-shadow: 0 0 24px 24px var(--cjp-light-grey);
 }
 
-.portfolio-card:hover {
-  transform: scale(1.02, 1.02);
-}
-
-.portfolio-img:hover {
-  cursor: pointer;
+.FAQlink {
+  color: var(--cjp-light-grey);
 }
 
 .footer {

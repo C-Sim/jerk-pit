@@ -22,9 +22,9 @@ export const App = () => {
           minHeight: "100vh",
           width: "100vw",
           background: `linear-gradient(
-            to top,
-            rgba(20, 20, 20, 0.2),
-            rgba(255, 255, 255, 0.2)
+            to bottom,
+            rgba(0, 0, 0, 1),
+            rgba(174, 173, 173, 0.2)
           )`,
         }}
       >

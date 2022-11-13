@@ -18,7 +18,7 @@ export const Gallery = () => {
     <Box
       sx={{
         margin: 2,
-        mt: 4,
+        mt: 8,
       }}
     >
       <PageTitle title="Gallery" />

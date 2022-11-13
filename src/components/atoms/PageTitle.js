@@ -12,9 +12,10 @@ export const PageTitle = ({ title }) => {
         align="center"
         sx={{
           paddingTop: 0.8,
-          color: "#aeadad",
+          color: "#ffffff",
           fontWeight: 100,
           fontSize: 32,
+          // fontFamily: Burnaby,
         }}
       >
         {title}

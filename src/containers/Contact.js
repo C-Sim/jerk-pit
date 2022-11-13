@@ -61,14 +61,24 @@ export const Contact = () => {
 
   return (
     <Paper
-      sx={{ p: isMobile ? 2 : 3, m: 4, minWidth: isMobile ? "80%" : "90%" }}
+      sx={{
+        p: isMobile ? 2 : 3,
+        m: 4,
+        mt: isMobile ? 10 : 8,
+        minWidth: isMobile ? "80%" : "90%",
+        // background: `linear-gradient(
+        //   to bottom,
+        //   rgba(0, 0, 0, 0.4),
+        //   rgba(174, 173, 173, 0.2)
+        // )`,
+      }}
       elevation={6}
     >
       <Dialog open={open} onClose={handleCloseModal}>
         <DialogTitle>Message sent.</DialogTitle>
         <DialogContent>
           <DialogContentText>
-            Thanks for getting in touch...I'll respond as soon as I can!
+            Thanks for getting in touch...we'll respond as soon as I can!
           </DialogContentText>
         </DialogContent>
         <DialogActions>
@@ -76,14 +86,28 @@ export const Contact = () => {
         </DialogActions>
       </Dialog>
 
-      <PageTitle title="Contact me" />
+      <Typography
+        variant="h3"
+        component="h1"
+        gutterBottom
+        align="center"
+        sx={{
+          paddingTop: 0.8,
+          color: "#1b1b1b",
+          fontWeight: 100,
+          fontSize: 32,
+          // fontFamily: Burnaby,
+        }}
+      >
+        Contact Us
+      </Typography>
 
       <Typography
         align="center"
-        sx={{ p: 3, pt: 1, fontWeight: 100, color: "#000000ff" }}
+        sx={{ p: 3, pt: 1, fontWeight: 100, color: "#aeadad" }}
       >
-        Send me a message using the form or contact me via the links in the
-        footer.
+        Send us a message using the form below and we'll respond as soon as we
+        can.
       </Typography>
 
       <Divider />

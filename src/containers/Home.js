@@ -1,6 +1,7 @@
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 import Avatar from "@mui/material/Avatar";
+import Button from "@mui/material/Button";
 
 import logo from "../components/atoms/images/Logo.png";
 import { AvatarBadge } from "../components/atoms/Avatar";
@@ -79,6 +80,110 @@ export const Home = () => {
           <img alt={"logo"} src={logo} width="80%" className="aboutImage" />
         </Grid>
       </Grid>
+
+      <Box
+        align="center"
+        sx={{
+          mt: isMobile ? 1 : 4,
+          padding: 1,
+        }}
+      >
+        <PageTitle title="Event Types" />
+      </Box>
+
+      <Grid
+        container
+        sx={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <Grid item xs={12} md={3} mt={2}>
+          <figure className="event-figure">
+            <img alt={"logo"} src={logo} width="100%" height="100%" />
+            <figcaption
+              className="image-bar"
+              sx={{
+                textAlign: "left",
+                fontSize: "18px",
+                fontWeight: 100,
+                backgroundColor: "#1b1b1b",
+              }}
+            >
+              Corporate
+            </figcaption>
+          </figure>
+        </Grid>
+        <Grid item xs={12} md={3} mt={2}>
+          <figure className="event-figure">
+            <img alt={"logo"} src={logo} width="100%" height="100%" />
+            <figcaption
+              className="image-bar"
+              sx={{
+                textAlign: "left",
+                fontSize: "18px",
+                fontWeight: 100,
+                backgroundColor: "#1b1b1b",
+              }}
+            >
+              Public Events
+            </figcaption>
+          </figure>
+        </Grid>
+        <Grid item xs={12} md={3} mt={2}>
+          <figure className="event-figure">
+            <img alt={"logo"} src={logo} width="100%" height="100%" />
+            <figcaption
+              className="image-bar"
+              sx={{
+                textAlign: "left",
+                fontSize: "18px",
+                fontWeight: 100,
+                backgroundColor: "#1b1b1b",
+              }}
+            >
+              Weddings
+            </figcaption>
+          </figure>
+        </Grid>
+        <Grid item xs={12} md={3} mt={2}>
+          <figure className="event-figure">
+            <img alt={"logo"} src={logo} width="100%" height="100%" />
+            <figcaption
+              className="image-bar"
+              sx={{
+                textAlign: "left",
+                fontSize: "18px",
+                fontWeight: 100,
+                backgroundColor: "#1b1b1b",
+              }}
+            >
+              Parties
+            </figcaption>
+          </figure>
+        </Grid>
+      </Grid>
+
+      <Box>
+        <Button
+          href="/#/contact"
+          className="button"
+          variant="contained"
+          sx={{
+            fontWeight: 100,
+            backgroundColor: "#1b1b1b",
+            color: "#ffffff",
+            "&:hover": { backgroundColor: "#000000" },
+            borderRadius: "18px",
+            margin: 4,
+            width: "50%",
+            fontWeight: 400,
+          }}
+        >
+          Get In Touch
+        </Button>
+      </Box>
     </Box>
   );
 };
