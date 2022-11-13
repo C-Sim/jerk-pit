@@ -9,6 +9,7 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { NavLink } from "react-router-dom";
+import logo from "../atoms/images/Logo.png";
 
 export const NavBar = ({ navItems }) => {
   const isMobile = useMediaQuery("(max-width:600px)");
@@ -21,14 +22,15 @@ export const NavBar = ({ navItems }) => {
   const drawer = (
     <Box
       onClick={handleDrawerToggle}
-      sx={{ textAlign: "center", backgroundColor: "#000000ff" }}
+      sx={{
+        textAlign: "center",
+        alignItems: "left",
+        backgroundColor: "#000000ff",
+      }}
     >
-      <Typography
-        variant="h6"
-        sx={{ my: 2, fontWeight: 100, color: "#ffffff" }}
-      >
-        Cynthia's Jerk Pit
-      </Typography>
+      <NavLink to={"/"}>
+        <img src={logo} alt={"logo"} width="148px" className="logo" />
+      </NavLink>
       <Divider />
 
       <nav
@@ -65,19 +67,18 @@ export const NavBar = ({ navItems }) => {
           >
             <MenuIcon />
           </IconButton>
-          <Typography
-            variant="h6"
-            component="div"
-            href="/"
+
+          <Box
             sx={{
               flexGrow: 1,
-              display: { xs: "none", sm: "block" },
-              color: "#ffffff",
-              fontWeight: 100,
+              display: "block",
             }}
           >
-            Cynthia's Jerk Pit
-          </Typography>
+            <NavLink to={"/"}>
+              <img src={logo} alt={"logo"} width="148px" className="logo" />
+            </NavLink>
+          </Box>
+
           <Box
             className="nav"
             sx={{ display: isMobile ? "none" : "flex", fontWeight: 100 }}

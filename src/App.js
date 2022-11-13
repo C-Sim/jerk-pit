@@ -1,5 +1,5 @@
 import { HashRouter as Router } from "react-router-dom";
-import { GitHub, LinkedIn, Instagram } from "@mui/icons-material";
+import { Email, DeliveryDining, Instagram } from "@mui/icons-material";
 import { AppRoutes } from "./AppRoutes";
 import { NavBar } from "./components/organisms/NavBar";
 import { Footer } from "./components/organisms/Footer";
@@ -64,19 +64,19 @@ export const App = () => {
           className="footer"
           footerItems={[
             {
-              label: "LinkedIn",
-              icon: LinkedIn,
-              href: "https://www.linkedin.com/in/cherelle-simpson",
+              label: "eMail",
+              icon: Email,
+              href: "/#/contact",
             },
             {
-              label: "GitHub",
-              icon: GitHub,
-              href: "https://github.com/C-Sim",
+              label: "order",
+              icon: DeliveryDining,
+              href: "https://deliveroo.co.uk/menu/birmingham/birmingham-city-centre/jerk-pit",
             },
             {
               label: "Instagram",
               icon: Instagram,
-              href: "https://www.instagram.com/cherelle.s/",
+              href: "https://www.instagram.com/cynthias_jerkpit/",
             },
           ]}
         />
