@@ -1,8 +1,7 @@
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 
-import kinkakuji from "../components/atoms/images/Kinkakuji.jpg";
-import me from "../components/atoms/images/CS.jpg";
+import logo from "../components/atoms/images/Logo.png";
 
 import Box from "@mui/material/Box";
 import Divider from "@mui/material/Divider";
@@ -11,7 +10,7 @@ import useMediaQuery from "@mui/material/useMediaQuery";
 
 import { NavLink } from "react-router-dom";
 
-export const AboutMe = () => {
+export const Home = () => {
   const isMobile = useMediaQuery("(max-width:600px)");
 
   return (
@@ -20,7 +19,7 @@ export const AboutMe = () => {
         sx={{
           width: "100vw",
           height: "100vh",
-          backgroundImage: `url(${kinkakuji})`,
+          backgroundImage: `url(${logo})`,
           backgroundSize: "100% 100%",
           backgroundRepeat: "no-repeat",
         }}
@@ -59,7 +58,7 @@ export const AboutMe = () => {
             md={3}
             sx={{ mt: 6, pl: 0, ml: isMobile ? 0 : 4 }}
           >
-            <img src={me} alt={"me"} width="148px" className="me" />
+            <img src={logo} alt={"logo"} width="148px" className="me" />
           </Grid>
           <Grid item xs={10} sm={8} md={8}>
             <Box

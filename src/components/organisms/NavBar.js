@@ -27,7 +27,7 @@ export const NavBar = ({ navItems }) => {
         variant="h6"
         sx={{ my: 2, fontWeight: 100, color: "#eef5dbff" }}
       >
-        Cherelle Simpson
+        Cynthia's Jerk Pit
       </Typography>
       <Divider />
 
@@ -76,7 +76,7 @@ export const NavBar = ({ navItems }) => {
               fontWeight: 100,
             }}
           >
-            Cherelle Simpson
+            Cynthia's Jerk Pit
           </Typography>
           <Box
             className="nav"

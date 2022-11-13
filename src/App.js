@@ -31,17 +31,26 @@ export const App = () => {
         <NavBar
           navItems={[
             {
-              label: "About Me",
+              label: "Home",
               href: "/",
             },
             {
-              label: "Portfolio",
-              href: "/portfolio",
+              label: "Services & Fees",
+              href: "/services",
             },
             {
-              label: "CV",
-              href: "/cv",
+              label: "Gallery",
+              href: "/gallery",
             },
+            {
+              label: "FAQs",
+              href: "/faqs",
+            },
+            {
+              label: "Reviews",
+              href: "/reviews",
+            },
+
             {
               label: "Contact",
               href: "/contact",
