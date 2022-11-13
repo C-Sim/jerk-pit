@@ -80,7 +80,7 @@ export const Contact = () => {
 
       <Typography
         align="center"
-        sx={{ p: 3, pt: 1, fontWeight: 100, color: "#4f6367ff" }}
+        sx={{ p: 3, pt: 1, fontWeight: 100, color: "#000000ff" }}
       >
         Send me a message using the form or contact me via the links in the
         footer.
@@ -138,9 +138,9 @@ export const Contact = () => {
             type="submit"
             sx={{
               fontWeight: 100,
-              backgroundColor: "#4f6367ff",
-              color: "#eef5dbff",
-              "&:hover": { backgroundColor: "#4f6367ff" },
+              backgroundColor: "#000000ff",
+              color: "#ffffff",
+              "&:hover": { backgroundColor: "#000000ff" },
             }}
           >
             Send Message

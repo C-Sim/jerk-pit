@@ -21,11 +21,11 @@ export const NavBar = ({ navItems }) => {
   const drawer = (
     <Box
       onClick={handleDrawerToggle}
-      sx={{ textAlign: "center", backgroundColor: "#4f6367ff" }}
+      sx={{ textAlign: "center", backgroundColor: "#000000ff" }}
     >
       <Typography
         variant="h6"
-        sx={{ my: 2, fontWeight: 100, color: "#eef5dbff" }}
+        sx={{ my: 2, fontWeight: 100, color: "#ffffff" }}
       >
         Cynthia's Jerk Pit
       </Typography>
@@ -52,7 +52,7 @@ export const NavBar = ({ navItems }) => {
       <AppBar
         component="nav"
         sx={{
-          backgroundColor: "#4f6367ff",
+          backgroundColor: "#000000ff",
         }}
       >
         <Toolbar>
@@ -72,7 +72,7 @@ export const NavBar = ({ navItems }) => {
             sx={{
               flexGrow: 1,
               display: { xs: "none", sm: "block" },
-              color: "#eef5dbff",
+              color: "#ffffff",
               fontWeight: 100,
             }}
           >

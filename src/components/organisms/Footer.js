@@ -8,7 +8,7 @@ export const Footer = ({ footerItems }) => {
       <Box
         component="footer"
         sx={{
-          backgroundColor: "#4f6367ff",
+          backgroundColor: "#000000ff",
         }}
       >
         <Toolbar>
@@ -17,7 +17,7 @@ export const Footer = ({ footerItems }) => {
               <IconButton
                 sx={{
                   textAlign: "center",
-                  color: "#c8c8c8",
+                  color: "#aeadad",
                   pl: 4,
                   pr: 4,
                 }}

@@ -1,10 +1,9 @@
 :root {
-  --powder-blue: #b8d8d8ff;
-  --cadet-blue: #c8c8c8;
-  --deep-space-sparkle: #4f6367;
-  --beige: #eef5dbff;
-  --orange-red-crayola: #fe5f55ff;
-  --golden: #d5bb64;
+  --cjp-black: #000000;
+  --cjp-white: #ffffff;
+  --cjp-red: #e30613;
+  --cjp-dark-grey: #1b1b1b;
+  --cjp-light-grey: #aeadad;
 }
 
 * {
@@ -83,22 +82,22 @@ a {
 }
 
 .link {
-  color: var(--cadet-blue);
+  color: var(--cjp-light-grey);
 }
 
 .link-active {
-  color: var(--beige);
+  color: var(--cjp-white);
 }
 
 .link:hover,
 .icon:hover,
 .button:hover,
 a:hover {
-  color: var(--golden);
+  color: var(--cjp-red);
 }
 
 .button:hover {
-  background-color: var(--cadet-blue);
+  background-color: var(--cjp-light-grey);
 }
 
 .main {
@@ -107,7 +106,7 @@ a:hover {
 }
 
 .image-bar {
-  color: var(--beige);
+  color: var(--cjp-white);
   position: relative;
   top: 105%;
   right: 24px;
@@ -117,7 +116,7 @@ a:hover {
 
 .me {
   border-radius: 50%;
-  box-shadow: 0 0 24px 24px var(--cadet-blue);
+  box-shadow: 0 0 24px 24px var(--cjp-light-grey);
   margin-left: 1.8rem;
 }
 

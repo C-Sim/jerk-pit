@@ -68,7 +68,7 @@ export const Home = () => {
                 padding: 1,
               }}
             >
-              <Typography sx={{ mb: 2, color: "#4f6367ff", fontWeight: 100 }}>
+              <Typography sx={{ mb: 2, color: "#000000ff", fontWeight: 100 }}>
                 An established business professional with extensive experience
                 in management roles within large and reputable companies.
               </Typography>
@@ -76,7 +76,7 @@ export const Home = () => {
               <Divider />
 
               <Typography
-                sx={{ mt: 2, mb: 2, color: "#4f6367ff", fontWeight: 100 }}
+                sx={{ mt: 2, mb: 2, color: "#000000ff", fontWeight: 100 }}
               >
                 Passionate about merging logic with creativity to create
                 functional apps, intuitive APIs and aesthetic interfaces.
@@ -85,7 +85,7 @@ export const Home = () => {
               <Divider />
 
               <Typography
-                sx={{ mt: 2, mb: 2, color: "#4f6367ff", fontWeight: 100 }}
+                sx={{ mt: 2, mb: 2, color: "#000000ff", fontWeight: 100 }}
               >
                 {" "}
                 Naturally creative and an adept problem-solver with proficiency
@@ -98,7 +98,7 @@ export const Home = () => {
                 align="center"
                 sx={{
                   mt: 2,
-                  color: "#4f6367ff",
+                  color: "#000000ff",
                   fontWeight: 100,
                   fontSize: 14,
                 }}

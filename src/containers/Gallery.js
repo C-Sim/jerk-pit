@@ -53,7 +53,7 @@ export const Gallery = () => {
                 rows={rows}
                 sx={{
                   border: 4,
-                  borderColor: "#4f6367ff",
+                  borderColor: "#000000ff",
                   margin: 2,
                   width: isMobile ? "300px" : "auto",
                 }}
@@ -73,8 +73,8 @@ export const Gallery = () => {
                   subtitle={item.title}
                   className="project-title"
                   sx={{
-                    color: "#4f6367ff",
-                    backgroundColor: "#4f6367ff",
+                    color: "#000000ff",
+                    backgroundColor: "#000000ff",
                     fontWeight: 100,
                     lineHeight: "18px",
                   }}
