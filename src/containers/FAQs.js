@@ -13,7 +13,7 @@ export const FAQs = () => {
     <Box m={8}>
       <PageTitle title="Frequently Asked Questions" />
       <br />
-      <Accordion>
+      <Accordion sx={{ bgcolor: "rgba(255, 255, 255, 0.2)" }}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2a-content"
@@ -32,7 +32,7 @@ export const FAQs = () => {
         </AccordionDetails>
       </Accordion>
 
-      <Accordion>
+      <Accordion sx={{ bgcolor: "rgba(255, 255, 255, 0.2)" }}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2a-content"
@@ -51,7 +51,7 @@ export const FAQs = () => {
         </AccordionDetails>
       </Accordion>
 
-      <Accordion>
+      <Accordion sx={{ bgcolor: "rgba(255, 255, 255, 0.2)" }}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2a-content"
@@ -70,7 +70,7 @@ export const FAQs = () => {
         </AccordionDetails>
       </Accordion>
 
-      <Accordion>
+      <Accordion sx={{ bgcolor: "rgba(255, 255, 255, 0.2)" }}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2a-content"
@@ -94,7 +94,7 @@ export const FAQs = () => {
         </AccordionDetails>
       </Accordion>
 
-      <Accordion>
+      <Accordion sx={{ bgcolor: "rgba(255, 255, 255, 0.2)" }}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2a-content"

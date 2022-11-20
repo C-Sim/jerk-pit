@@ -66,11 +66,7 @@ export const Contact = () => {
         m: 4,
         mt: isMobile ? 10 : 8,
         minWidth: isMobile ? "80%" : "90%",
-        // background: `linear-gradient(
-        //   to bottom,
-        //   rgba(0, 0, 0, 0.4),
-        //   rgba(174, 173, 173, 0.2)
-        // )`,
+        bgcolor: "rgba(255, 255, 255, 0.2)",
       }}
       elevation={6}
     >
@@ -104,7 +100,7 @@ export const Contact = () => {
 
       <Typography
         align="center"
-        sx={{ p: 3, pt: 1, fontWeight: 100, color: "#aeadad" }}
+        sx={{ p: 3, pt: 1, fontWeight: 100, color: "#ffffff" }}
       >
         Send us a message using the form below and we'll respond as soon as we
         can.

@@ -8,10 +8,15 @@ import { AvatarBadge } from "../components/atoms/Avatar";
 
 export const Reviews = () => {
   return (
-    <Box m={8}>
+    <Box m={8} align="center">
       <PageTitle title="Reviews" />
 
-      <Grid container spacing={2} mt={4}>
+      <Typography sx={{ mt: 2, color: "#aeadad", fontWeight: 100 }}>
+        We go the extra mile to make our customers as happy as possible. But
+        don't just take our word for it...
+      </Typography>
+
+      <Grid container spacing={2} mt={2}>
         <Grid item xs={12} md={3} align="center">
           <Box p={2} borderRadius="18px" bgcolor={"rgba(255, 255, 255, 0.2)"}>
             <AvatarBadge></AvatarBadge>
