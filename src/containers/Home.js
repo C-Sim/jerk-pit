@@ -5,7 +5,9 @@ import Button from "@mui/material/Button";
 
 import logo from "../components/atoms/images/Logo.png";
 import platter from "../components/atoms/images/Platter.jpg";
-import staff from "../components/atoms/images/Staff.png";
+import trailer from "../components/atoms/images/Trailer.png";
+import trailer1 from "../components/atoms/images/Trailer1.jpg";
+
 import staffHut from "../components/atoms/images/StaffHut.png";
 import trailerSt from "../components/atoms/images/TrailerSt.jpg";
 import trailerBack from "../components/atoms/images/TrailerBack.jpg";
@@ -68,20 +70,30 @@ export const Home = () => {
         }}
       >
         <Grid item xs={12} md={4} mt={2}>
-          <img alt={"logo"} src={logo} width="80%" className="aboutImage" />
+          <img
+            alt={"trailer"}
+            src={trailer}
+            width="80%"
+            className="aboutImage"
+          />
         </Grid>
         <Grid item xs={12} md={4} mt={2}>
-          <img alt={"logo"} src={logo} width="80%" className="aboutImage" />
+          <img alt={"logo"} src={logo} width="80%" />
         </Grid>
         <Grid item xs={12} md={4} mt={2}>
-          <img alt={"logo"} src={logo} width="80%" className="aboutImage" />
+          <img
+            alt={"trailer1"}
+            src={trailer1}
+            width="80%"
+            className="aboutImage"
+          />
         </Grid>
       </Grid>
 
       <Box
         align="center"
         sx={{
-          mt: isMobile ? 1 : 4,
+          mt: 4,
           padding: 1,
         }}
       >

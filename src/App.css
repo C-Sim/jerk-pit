@@ -124,6 +124,7 @@ a:hover {
 .aboutImage {
   border-radius: 50%;
   box-shadow: 0 0 24px 24px var(--cjp-light-grey);
+  width: 60%;
 }
 
 .FAQlink {
