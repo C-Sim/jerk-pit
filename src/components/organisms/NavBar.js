@@ -24,7 +24,7 @@ export const NavBar = ({ navItems }) => {
       onClick={handleDrawerToggle}
       sx={{
         textAlign: "center",
-        alignItems: "left",
+        alignItems: "center",
         backgroundColor: "#000000ff",
       }}
     >
@@ -55,6 +55,7 @@ export const NavBar = ({ navItems }) => {
         component="nav"
         sx={{
           backgroundColor: "#000000ff",
+          textAlign: isMobile ? "center" : "left",
         }}
       >
         <Toolbar>
@@ -72,6 +73,7 @@ export const NavBar = ({ navItems }) => {
             sx={{
               flexGrow: 1,
               display: "block",
+              mr: isMobile ? "10%" : 0,
             }}
           >
             <NavLink to={"/"}>
