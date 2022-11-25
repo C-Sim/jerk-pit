@@ -4,6 +4,13 @@ import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 
 import logo from "../components/atoms/images/Logo.png";
+import platter from "../components/atoms/images/Platter.jpg";
+import staff from "../components/atoms/images/Staff.png";
+import staffHut from "../components/atoms/images/StaffHut.png";
+import trailerSt from "../components/atoms/images/TrailerSt.jpg";
+import trailerBack from "../components/atoms/images/TrailerBack.jpg";
+import trailerQ from "../components/atoms/images/TrailerQ.jpg";
+
 import { AvatarBadge } from "../components/atoms/Avatar";
 import { PageTitle } from "../components/atoms/PageTitle";
 
@@ -20,26 +27,16 @@ export const Home = () => {
   return (
     <Box align="center">
       <Box
+        mt={4}
         sx={{
           width: "100vw",
           height: "100vh",
-          backgroundImage: `url(${logo})`,
+          backgroundImage: `url(${platter})`,
           backgroundSize: "100% 100%",
           backgroundRepeat: "no-repeat",
+          // objectFit: "scale-down",
         }}
-      >
-        <ImageListItemBar
-          className="image-bar"
-          subtitle="Photo taken on my travels in Kyoto, Japan"
-          sx={{
-            textAlign: "right",
-            fontSize: "8px",
-            fontWeight: 100,
-            backgroundColor: "rgb(79, 99, 103, 0)",
-            fontStyle: "italic",
-          }}
-        />
-      </Box>
+      ></Box>
       <Box sx={{ mb: 4, width: "100vw", margin: 0 }}>
         <Box
           align="center"
@@ -101,7 +98,7 @@ export const Home = () => {
       >
         <Grid item xs={12} md={3} mt={2}>
           <figure className="event-figure">
-            <img alt={"logo"} src={logo} width="100%" height="100%" />
+            <img alt={"staffHut"} src={staffHut} width="100%" height="100%" />
             <figcaption
               className="image-bar"
               sx={{
@@ -117,7 +114,7 @@ export const Home = () => {
         </Grid>
         <Grid item xs={12} md={3} mt={2}>
           <figure className="event-figure">
-            <img alt={"logo"} src={logo} width="100%" height="100%" />
+            <img alt={"trailerSt"} src={trailerSt} width="100%" height="100%" />
             <figcaption
               className="image-bar"
               sx={{
@@ -133,7 +130,12 @@ export const Home = () => {
         </Grid>
         <Grid item xs={12} md={3} mt={2}>
           <figure className="event-figure">
-            <img alt={"logo"} src={logo} width="100%" height="100%" />
+            <img
+              alt={"trailerBack"}
+              src={trailerBack}
+              width="100%"
+              height="100%"
+            />
             <figcaption
               className="image-bar"
               sx={{
@@ -149,7 +151,7 @@ export const Home = () => {
         </Grid>
         <Grid item xs={12} md={3} mt={2}>
           <figure className="event-figure">
-            <img alt={"logo"} src={logo} width="100%" height="100%" />
+            <img alt={"trailerQ"} src={trailerQ} width="100%" height="100%" />
             <figcaption
               className="image-bar"
               sx={{
