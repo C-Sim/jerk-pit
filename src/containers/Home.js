@@ -34,9 +34,9 @@ export const Home = () => {
           width: "100vw",
           height: "100vh",
           backgroundImage: `url(${platter})`,
-          backgroundSize: "100% 100%",
+          backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
-          // objectFit: "scale-down",
+          backgroundPosition: "center",
         }}
       ></Box>
       <Box sx={{ mb: 4, width: "100vw", margin: 0 }}>
