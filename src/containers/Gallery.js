@@ -184,11 +184,6 @@ const gallery = [
     featured: true,
   },
 
-  // {
-  //   img: meal,
-  //   title: "meal",
-  // },
-
   {
     img: drinkMagnum,
     title: "drinkMagnum",
