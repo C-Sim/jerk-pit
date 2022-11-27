@@ -8,6 +8,11 @@ import SwapHorizSharpIcon from "@mui/icons-material/SwapHorizSharp";
 import { PageTitle } from "../components/atoms/PageTitle";
 import { AvatarBadge } from "../components/atoms/Avatar";
 
+import staff from "../components/atoms/images/Staff.png";
+import drinkTropical from "../components/atoms/images/DrinkTropical.jpg";
+import mealMutton from "../components/atoms/images/MealMuttonPortrait.jpg";
+import trailerPortrait from "../components/atoms/images/TrailerPortrait.png";
+
 export const ServicesFees = () => {
   return (
     <Box m={8} align="center">
@@ -28,7 +33,7 @@ export const ServicesFees = () => {
           <Box>
             <AvatarBadge></AvatarBadge>
             <Typography mt={2} fontWeight={100}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </Typography>
           </Box>
         </Grid>
@@ -37,7 +42,7 @@ export const ServicesFees = () => {
           <Box>
             <AvatarBadge></AvatarBadge>
             <Typography mt={2} fontWeight={100}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </Typography>
           </Box>
         </Grid>
@@ -46,7 +51,7 @@ export const ServicesFees = () => {
           <Box>
             <AvatarBadge></AvatarBadge>
             <Typography mt={2} fontWeight={100}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </Typography>
           </Box>
         </Grid>
@@ -55,7 +60,7 @@ export const ServicesFees = () => {
           <Box>
             <AvatarBadge></AvatarBadge>
             <Typography mt={2} fontWeight={100}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              4. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </Typography>
           </Box>
         </Grid>
@@ -105,52 +110,60 @@ export const ServicesFees = () => {
       <Grid container spacing={2} mt={2} mb={4}>
         <Grid item xs={12} md={3} align="center">
           <Box>
-            <Box
-              height={100}
-              width={200}
-              sx={{ border: "solid", borderColor: "#aeadad" }}
-            ></Box>{" "}
+            <img
+              height={200}
+              width={150}
+              src={trailerPortrait}
+              alt={"trailerPortrait"}
+              className="included-image"
+            ></img>{" "}
             <Typography mt={2} fontWeight={100}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Fancy trailer...
             </Typography>
           </Box>
         </Grid>
 
         <Grid item xs={12} md={3} align="center">
           <Box>
-            <Box
-              height={100}
-              width={200}
-              sx={{ border: "solid", borderColor: "#aeadad" }}
-            ></Box>{" "}
+            <img
+              height={200}
+              width={150}
+              src={mealMutton}
+              alt={"mealMutton"}
+              className="included-image"
+            ></img>{" "}
             <Typography mt={2} fontWeight={100}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Delicious soul food...
             </Typography>
           </Box>
         </Grid>
 
         <Grid item xs={12} md={3} align="center">
           <Box>
-            <Box
-              height={100}
-              width={200}
-              sx={{ border: "solid", borderColor: "#aeadad" }}
-            ></Box>{" "}
+            <img
+              height={200}
+              width={150}
+              src={drinkTropical}
+              alt={"drinkTropical"}
+              className="included-image"
+            ></img>{" "}
             <Typography mt={2} fontWeight={100}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Complementary drinks...
             </Typography>
           </Box>
         </Grid>
 
         <Grid item xs={12} md={3} align="center">
           <Box>
-            <Box
-              height={100}
-              width={200}
-              sx={{ border: "solid", borderColor: "#aeadad" }}
-            ></Box>{" "}
+            <img
+              height={200}
+              width={150}
+              src={staff}
+              alt={"staff"}
+              className="included-image"
+            ></img>{" "}
             <Typography mt={2} fontWeight={100}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Glamorous staff...
             </Typography>
           </Box>
         </Grid>

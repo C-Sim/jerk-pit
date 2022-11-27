@@ -75,7 +75,7 @@ export const Home = () => {
             alt={"trailer"}
             src={trailer}
             width="80%"
-            className="aboutImage"
+            className="about-image"
           />
         </Grid>
         <Grid item xs={12} md={4} mt={2}>
@@ -86,7 +86,7 @@ export const Home = () => {
             alt={"trailer1"}
             src={trailer1}
             width="80%"
-            className="aboutImage"
+            className="about-image"
           />
         </Grid>
       </Grid>

@@ -121,10 +121,15 @@ a:hover {
   opacity: 72%;
 }
 
-.aboutImage {
+.about-image {
   border-radius: 50%;
   box-shadow: 0 0 24px 24px var(--cjp-light-grey);
   width: 60%;
+}
+
+.included-image {
+  border-radius: 18px;
+  border: rgba(27, 27, 27, 0.2) 8px solid;
 }
 
 .FAQlink {
