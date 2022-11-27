@@ -23,17 +23,15 @@ export const ServicesFees = () => {
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
         commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        velit esse cillum dolore eu fugiat nulla pariatur.
       </Typography>
 
-      <Grid container spacing={2} mt={2} mb={4}>
+      {/* <Grid container spacing={2} mt={2} mb={4}>
         <Grid item xs={12} md={3} align="center">
           <Box>
             <AvatarBadge></AvatarBadge>
             <Typography mt={2} fontWeight={100}>
-              1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Full Service Catering
             </Typography>
           </Box>
         </Grid>
@@ -42,7 +40,7 @@ export const ServicesFees = () => {
           <Box>
             <AvatarBadge></AvatarBadge>
             <Typography mt={2} fontWeight={100}>
-              2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Competitive Prices
             </Typography>
           </Box>
         </Grid>
@@ -51,7 +49,7 @@ export const ServicesFees = () => {
           <Box>
             <AvatarBadge></AvatarBadge>
             <Typography mt={2} fontWeight={100}>
-              3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Friendly Staff
             </Typography>
           </Box>
         </Grid>
@@ -60,50 +58,12 @@ export const ServicesFees = () => {
           <Box>
             <AvatarBadge></AvatarBadge>
             <Typography mt={2} fontWeight={100}>
-              4. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Delicious Food
             </Typography>
           </Box>
         </Grid>
       </Grid>
-
-      <Box width="100%" mb={4} p={4} bgcolor={"rgba(255, 255, 255, 0.1)"}>
-        <PageTitle title="Fees" />
-
-        <Grid container spacing={2} mt={2} mb={4}>
-          <Grid item xs={12} md={4} align="center">
-            <Box>
-              <Typography fontSize={48} fontWeight={600} color="#aeadad">
-                £1000
-              </Typography>{" "}
-              <Typography mt={2} fontWeight={100}>
-                Basic package, including...
-              </Typography>
-            </Box>
-          </Grid>
-
-          <Grid item xs={12} md={4} align="center">
-            <Box>
-              <Typography fontSize={48} fontWeight={600} color="#aeadad">
-                £2000
-              </Typography>{" "}
-              <Typography mt={2} fontWeight={100}>
-                Upgraded package, including...
-              </Typography>
-            </Box>
-          </Grid>
-
-          <Grid item xs={12} md={4} align="center">
-            <Box>
-              <Typography fontSize={48} fontWeight={600} color="#aeadad">
-                £3000
-              </Typography>{" "}
-              <Typography mt={2} fontWeight={100}>
-                The full works, including...
-              </Typography>
-            </Box>
-          </Grid>
-        </Grid>
-      </Box>
+ */}
 
       <PageTitle title="What's Included" />
 
@@ -117,7 +77,7 @@ export const ServicesFees = () => {
               alt={"trailerPortrait"}
               className="included-image"
             ></img>{" "}
-            <Typography mt={2} fontWeight={100}>
+            <Typography mt={2} fontWeight={100} color="#aeadad">
               Fancy trailer...
             </Typography>
           </Box>
@@ -132,7 +92,7 @@ export const ServicesFees = () => {
               alt={"mealMutton"}
               className="included-image"
             ></img>{" "}
-            <Typography mt={2} fontWeight={100}>
+            <Typography mt={2} fontWeight={100} color="#aeadad">
               Delicious soul food...
             </Typography>
           </Box>
@@ -147,7 +107,7 @@ export const ServicesFees = () => {
               alt={"drinkTropical"}
               className="included-image"
             ></img>{" "}
-            <Typography mt={2} fontWeight={100}>
+            <Typography mt={2} fontWeight={100} color="#aeadad">
               Complementary drinks...
             </Typography>
           </Box>
@@ -162,12 +122,63 @@ export const ServicesFees = () => {
               alt={"staff"}
               className="included-image"
             ></img>{" "}
-            <Typography mt={2} fontWeight={100}>
+            <Typography mt={2} fontWeight={100} color="#aeadad">
               Glamorous staff...
             </Typography>
           </Box>
         </Grid>
       </Grid>
+
+      <Box width="100%" mb={4} p={4} bgcolor={"rgba(255, 255, 255, 0.1)"}>
+        <PageTitle title="Fees" />
+
+        <Grid container spacing={2} mt={2} mb={4}>
+          <Grid item xs={12} md={4} align="center">
+            <Box>
+              <Typography
+                fontSize={48}
+                fontWeight={600}
+                color="rgba(27, 27, 27, 0.3)"
+              >
+                £1000
+              </Typography>{" "}
+              <Typography mt={2} fontWeight={100}>
+                Basic package, including...
+              </Typography>
+            </Box>
+          </Grid>
+
+          <Grid item xs={12} md={4} align="center">
+            <Box>
+              <Typography
+                fontSize={48}
+                fontWeight={600}
+                color="rgba(27, 27, 27, 0.3)"
+              >
+                £2000
+              </Typography>{" "}
+              <Typography mt={2} fontWeight={100}>
+                Upgraded package, including...
+              </Typography>
+            </Box>
+          </Grid>
+
+          <Grid item xs={12} md={4} align="center">
+            <Box>
+              <Typography
+                fontSize={48}
+                fontWeight={600}
+                color="rgba(27, 27, 27, 0.3)"
+              >
+                £3000
+              </Typography>{" "}
+              <Typography mt={2} fontWeight={100}>
+                The full works, including...
+              </Typography>
+            </Box>
+          </Grid>
+        </Grid>
+      </Box>
 
       <Box width="100%" p={4} bgcolor={"rgba(255, 255, 255, 0.1)"}>
         <PageTitle title="Payment Methods" />
@@ -176,7 +187,7 @@ export const ServicesFees = () => {
           <Grid item xs={12} md={4} align="center">
             <Box>
               <CreditCardSharpIcon
-                sx={{ fontSize: "64px", color: "#aeadad" }}
+                sx={{ fontSize: "64px", color: "rgba(27, 27, 27, 0.3)" }}
               />{" "}
               <Typography mt={2} fontWeight={100}>
                 Credit/Debit Card
@@ -187,7 +198,7 @@ export const ServicesFees = () => {
           <Grid item xs={12} md={4} align="center">
             <Box>
               <CurrencyPoundSharpIcon
-                sx={{ fontSize: "64px", color: "#aeadad" }}
+                sx={{ fontSize: "64px", color: "rgba(27, 27, 27, 0.3)" }}
               />{" "}
               <Typography mt={2} fontWeight={100}>
                 Cash
@@ -197,7 +208,9 @@ export const ServicesFees = () => {
 
           <Grid item xs={12} md={4} align="center">
             <Box>
-              <SwapHorizSharpIcon sx={{ fontSize: "64px", color: "#aeadad" }} />{" "}
+              <SwapHorizSharpIcon
+                sx={{ fontSize: "64px", color: "rgba(27, 27, 27, 0.3)" }}
+              />{" "}
               <Typography mt={2} fontWeight={100}>
                 Bank Transfer
               </Typography>
