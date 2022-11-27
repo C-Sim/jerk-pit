@@ -23,11 +23,18 @@ export const Reviews = () => {
 
       <Grid container spacing={2} mt={2}>
         <Grid item xs={12} md={3} align="center">
-          <Box p={2} borderRadius="18px" bgcolor={"rgba(255, 255, 255, 0.2)"}>
-            <AvatarBadge image={review1} imageAlt="review1"></AvatarBadge>
+          <Box
+            p={2}
+            borderRadius="18px"
+            bgcolor={"rgba(255, 255, 255, 0.2)"}
+            height={480}
+          >
+            <Box m={2}>
+              <img src={review1} alt="review1" className="review-image"></img>
+            </Box>
             <FormatQuoteIcon
               fontSize="large"
-              sx={{ transform: "scaleX(-1)", mt: 4, color: "#e30613" }}
+              sx={{ transform: "scaleX(-1)", color: "#e30613" }}
             />
             <Typography fontWeight={100}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -40,11 +47,18 @@ export const Reviews = () => {
         </Grid>
 
         <Grid item xs={12} md={3} align="center">
-          <Box p={2} borderRadius="18px" bgcolor={"rgba(255, 255, 255, 0.2)"}>
-            <AvatarBadge image={review2} imageAlt="review2"></AvatarBadge>
+          <Box
+            p={2}
+            borderRadius="18px"
+            bgcolor={"rgba(255, 255, 255, 0.2)"}
+            height={480}
+          >
+            <Box m={2}>
+              <img src={review2} alt="review2" className="review-image"></img>
+            </Box>
             <FormatQuoteIcon
               fontSize="large"
-              sx={{ transform: "scaleX(-1)", mt: 4, color: "#e30613" }}
+              sx={{ transform: "scaleX(-1)", color: "#e30613" }}
             />
             <Typography fontWeight={100}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -57,11 +71,18 @@ export const Reviews = () => {
         </Grid>
 
         <Grid item xs={12} md={3} align="center">
-          <Box p={2} borderRadius="18px" bgcolor={"rgba(255, 255, 255, 0.2)"}>
-            <AvatarBadge image={review3} imageAlt="review3"></AvatarBadge>
+          <Box
+            p={2}
+            borderRadius="18px"
+            bgcolor={"rgba(255, 255, 255, 0.2)"}
+            height={480}
+          >
+            <Box m={2}>
+              <img src={review3} alt="review3" className="review-image"></img>
+            </Box>
             <FormatQuoteIcon
               fontSize="large"
-              sx={{ transform: "scaleX(-1)", mt: 4, color: "#e30613" }}
+              sx={{ transform: "scaleX(-1)", color: "#e30613" }}
             />
             <Typography fontWeight={100}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -74,11 +95,18 @@ export const Reviews = () => {
         </Grid>
 
         <Grid item xs={12} md={3} align="center">
-          <Box p={2} borderRadius="18px" bgcolor={"rgba(255, 255, 255, 0.2)"}>
-            <AvatarBadge image={review4} imageAlt="review4"></AvatarBadge>
+          <Box
+            p={2}
+            borderRadius="18px"
+            bgcolor={"rgba(255, 255, 255, 0.2)"}
+            height={480}
+          >
+            <Box m={2}>
+              <img src={review4} alt="review4" className="review-image"></img>
+            </Box>
             <FormatQuoteIcon
               fontSize="large"
-              sx={{ transform: "scaleX(-1)", mt: 4, color: "#e30613" }}
+              sx={{ transform: "scaleX(-1)", color: "#e30613" }}
             />
             <Typography fontWeight={100}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
