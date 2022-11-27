@@ -89,10 +89,10 @@ export const Contact = () => {
         align="center"
         sx={{
           paddingTop: 0.8,
-          color: "#1b1b1b",
+          color: "#ffffff",
           fontWeight: 100,
-          fontSize: 32,
-          // fontFamily: Burnaby,
+          fontSize: 48,
+          fontFamily: "Burnaby",
         }}
       >
         Contact Us
@@ -100,7 +100,7 @@ export const Contact = () => {
 
       <Typography
         align="center"
-        sx={{ p: 3, pt: 1, fontWeight: 100, color: "#ffffff" }}
+        sx={{ p: 3, pt: 1, fontWeight: 100, color: "#1b1b1b" }}
       >
         Send us a message using the form below and we'll respond as soon as we
         can.
@@ -160,7 +160,10 @@ export const Contact = () => {
               fontWeight: 100,
               backgroundColor: "#000000ff",
               color: "#ffffff",
-              "&:hover": { backgroundColor: "#000000ff" },
+              fontFamily: "Burnaby",
+              fontSize: 24,
+              "&:hover": { backgroundColor: "#000000ff", color: "#e30613" },
+              borderRadius: "18px",
             }}
           >
             Send Message

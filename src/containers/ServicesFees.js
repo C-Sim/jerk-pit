@@ -136,8 +136,8 @@ export const ServicesFees = () => {
           <Grid item xs={12} md={4} align="center">
             <Box>
               <Typography
-                fontSize={48}
-                fontWeight={600}
+                fontSize={56}
+                fontFamily="Burnaby"
                 color="rgba(27, 27, 27, 0.3)"
               >
                 £1000
@@ -151,8 +151,8 @@ export const ServicesFees = () => {
           <Grid item xs={12} md={4} align="center">
             <Box>
               <Typography
-                fontSize={48}
-                fontWeight={600}
+                fontSize={56}
+                fontFamily="Burnaby"
                 color="rgba(27, 27, 27, 0.3)"
               >
                 £2000
@@ -166,8 +166,8 @@ export const ServicesFees = () => {
           <Grid item xs={12} md={4} align="center">
             <Box>
               <Typography
-                fontSize={48}
-                fontWeight={600}
+                fontSize={56}
+                fontFamily="Burnaby"
                 color="rgba(27, 27, 27, 0.3)"
               >
                 £3000

@@ -198,8 +198,10 @@ export const Home = () => {
             "&:hover": { backgroundColor: "#000000" },
             borderRadius: "18px",
             margin: 4,
-            width: "50%",
+            width: "42%",
             fontWeight: 400,
+            fontFamily: "Burnaby",
+            fontSize: 24,
           }}
         >
           Get In Touch

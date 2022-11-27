@@ -14,13 +14,11 @@ export const PageTitle = ({ title }) => {
         component="h1"
         gutterBottom
         align="center"
-        className="page-title"
         sx={{
           paddingTop: isMobile ? 4 : 0.8,
           color: "#ffffff",
-          fontWeight: 100,
-          fontSize: 32,
-          // fontFamily: Burnaby,
+          fontSize: 48,
+          fontFamily: "Burnaby",
         }}
       >
         {title}

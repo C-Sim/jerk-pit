@@ -19,7 +19,9 @@ export const FAQs = () => {
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography>How much do you charge?</Typography>
+          <Typography fontSize={24} fontFamily="Burnaby">
+            How much do you charge?
+          </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography fontWeight={100}>
@@ -38,7 +40,9 @@ export const FAQs = () => {
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography>How can I contact you?</Typography>
+          <Typography fontSize={24} fontFamily="Burnaby">
+            How can I contact you?
+          </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography fontWeight={100}>
@@ -57,7 +61,9 @@ export const FAQs = () => {
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography>Can you only cater for outdoor events?</Typography>
+          <Typography fontSize={24} fontFamily="Burnaby">
+            Can you only cater for outdoor events?
+          </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography fontWeight={100}>
@@ -76,7 +82,9 @@ export const FAQs = () => {
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography>What events do you have coming up?</Typography>
+          <Typography fontSize={24} fontFamily="Burnaby">
+            What events do you have coming up?
+          </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography fontWeight={100}>
@@ -100,7 +108,9 @@ export const FAQs = () => {
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography>How else can I try your food?</Typography>
+          <Typography fontSize={24} fontFamily="Burnaby">
+            How else can I try your food?
+          </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography fontWeight={100}>
