@@ -12,6 +12,7 @@ import staffHut from "../components/atoms/images/StaffHut.png";
 import trailerSt from "../components/atoms/images/TrailerSt.jpg";
 import trailerBack from "../components/atoms/images/TrailerBack.jpg";
 import trailerQ from "../components/atoms/images/TrailerQ.jpg";
+import trailerParty from "../components/atoms/images/TrailerParty.jpg";
 
 import { AvatarBadge } from "../components/atoms/Avatar";
 import { PageTitle } from "../components/atoms/PageTitle";
@@ -124,6 +125,29 @@ export const Home = () => {
             </figcaption>
           </figure>
         </Grid>
+
+        <Grid item xs={12} md={3} mt={2}>
+          <figure className="event-figure">
+            <img
+              alt={"trailerParty"}
+              src={trailerParty}
+              width="100%"
+              height="100%"
+            />
+            <figcaption
+              className="image-bar"
+              sx={{
+                textAlign: "left",
+                fontSize: "18px",
+                fontWeight: 100,
+                backgroundColor: "#1b1b1b",
+              }}
+            >
+              Parties
+            </figcaption>
+          </figure>
+        </Grid>
+
         <Grid item xs={12} md={3} mt={2}>
           <figure className="event-figure">
             <img alt={"trailerSt"} src={trailerSt} width="100%" height="100%" />
@@ -140,6 +164,7 @@ export const Home = () => {
             </figcaption>
           </figure>
         </Grid>
+
         <Grid item xs={12} md={3} mt={2}>
           <figure className="event-figure">
             <img
@@ -158,22 +183,6 @@ export const Home = () => {
               }}
             >
               Weddings
-            </figcaption>
-          </figure>
-        </Grid>
-        <Grid item xs={12} md={3} mt={2}>
-          <figure className="event-figure">
-            <img alt={"trailerQ"} src={trailerQ} width="100%" height="100%" />
-            <figcaption
-              className="image-bar"
-              sx={{
-                textAlign: "left",
-                fontSize: "18px",
-                fontWeight: 100,
-                backgroundColor: "#1b1b1b",
-              }}
-            >
-              Parties
             </figcaption>
           </figure>
         </Grid>
