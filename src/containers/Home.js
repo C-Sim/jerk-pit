@@ -5,9 +5,7 @@ import Button from "@mui/material/Button";
 
 import logo from "../components/atoms/images/Logo.png";
 import platter from "../components/atoms/images/Platter.jpg";
-import trailer from "../components/atoms/images/Trailer.png";
 import trailer1 from "../components/atoms/images/Trailer1.jpg";
-
 import staffHut from "../components/atoms/images/StaffHut.png";
 import trailerSt from "../components/atoms/images/TrailerSt.jpg";
 import trailerBack from "../components/atoms/images/TrailerBack.jpg";

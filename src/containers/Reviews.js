@@ -6,6 +6,11 @@ import FormatQuoteIcon from "@mui/icons-material/FormatQuote";
 import { PageTitle } from "../components/atoms/PageTitle";
 import { AvatarBadge } from "../components/atoms/Avatar";
 
+import review1 from "../components/atoms/images/Review1.jpg";
+import review2 from "../components/atoms/images/Review2.jpg";
+import review3 from "../components/atoms/images/Review3.jpg";
+import review4 from "../components/atoms/images/Review4.png";
+
 export const Reviews = () => {
   return (
     <Box m={8} align="center">
@@ -19,7 +24,7 @@ export const Reviews = () => {
       <Grid container spacing={2} mt={2}>
         <Grid item xs={12} md={3} align="center">
           <Box p={2} borderRadius="18px" bgcolor={"rgba(255, 255, 255, 0.2)"}>
-            <AvatarBadge></AvatarBadge>
+            <AvatarBadge image={review1} imageAlt="review1"></AvatarBadge>
             <FormatQuoteIcon
               fontSize="large"
               sx={{ transform: "scaleX(-1)", mt: 4, color: "#e30613" }}
@@ -36,7 +41,7 @@ export const Reviews = () => {
 
         <Grid item xs={12} md={3} align="center">
           <Box p={2} borderRadius="18px" bgcolor={"rgba(255, 255, 255, 0.2)"}>
-            <AvatarBadge></AvatarBadge>
+            <AvatarBadge image={review2} imageAlt="review2"></AvatarBadge>
             <FormatQuoteIcon
               fontSize="large"
               sx={{ transform: "scaleX(-1)", mt: 4, color: "#e30613" }}
@@ -53,7 +58,7 @@ export const Reviews = () => {
 
         <Grid item xs={12} md={3} align="center">
           <Box p={2} borderRadius="18px" bgcolor={"rgba(255, 255, 255, 0.2)"}>
-            <AvatarBadge></AvatarBadge>
+            <AvatarBadge image={review3} imageAlt="review3"></AvatarBadge>
             <FormatQuoteIcon
               fontSize="large"
               sx={{ transform: "scaleX(-1)", mt: 4, color: "#e30613" }}
@@ -70,7 +75,7 @@ export const Reviews = () => {
 
         <Grid item xs={12} md={3} align="center">
           <Box p={2} borderRadius="18px" bgcolor={"rgba(255, 255, 255, 0.2)"}>
-            <AvatarBadge></AvatarBadge>
+            <AvatarBadge image={review4} imageAlt="review4"></AvatarBadge>
             <FormatQuoteIcon
               fontSize="large"
               sx={{ transform: "scaleX(-1)", mt: 4, color: "#e30613" }}
