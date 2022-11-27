@@ -11,7 +11,7 @@ import trailer1 from "../components/atoms/images/Trailer1.jpg";
 import staffHut from "../components/atoms/images/StaffHut.png";
 import trailerSt from "../components/atoms/images/TrailerSt.jpg";
 import trailerBack from "../components/atoms/images/TrailerBack.jpg";
-import trailerQ from "../components/atoms/images/TrailerQ.jpg";
+import trailerStand from "../components/atoms/images/TrailerStand.jpg";
 import trailerParty from "../components/atoms/images/TrailerParty.jpg";
 
 import { AvatarBadge } from "../components/atoms/Avatar";
@@ -72,8 +72,8 @@ export const Home = () => {
       >
         <Grid item xs={12} md={4} mt={2}>
           <img
-            alt={"trailer"}
-            src={trailer}
+            alt={"trailerBack"}
+            src={trailerBack}
             width="80%"
             className="about-image"
           />
@@ -111,7 +111,12 @@ export const Home = () => {
       >
         <Grid item xs={12} md={3} mt={2}>
           <figure className="event-figure">
-            <img alt={"staffHut"} src={staffHut} width="100%" height="100%" />
+            <img
+              alt={"trailerStand"}
+              src={trailerStand}
+              width="100%"
+              height="100%"
+            />
             <figcaption
               className="image-bar"
               sx={{
@@ -167,12 +172,7 @@ export const Home = () => {
 
         <Grid item xs={12} md={3} mt={2}>
           <figure className="event-figure">
-            <img
-              alt={"trailerBack"}
-              src={trailerBack}
-              width="100%"
-              height="100%"
-            />
+            <img alt={"staffHut"} src={staffHut} width="100%" height="100%" />
             <figcaption
               className="image-bar"
               sx={{
