@@ -95,6 +95,11 @@ a:hover {
   color: var(--cjp-red);
 }
 
+.page-title {
+  font-family: burnaby-stencil, sans-serif;
+  font-style: normal;
+}
+
 .button:hover {
   background-color: var(--cjp-light-grey);
 }

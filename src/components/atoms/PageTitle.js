@@ -14,6 +14,7 @@ export const PageTitle = ({ title }) => {
         component="h1"
         gutterBottom
         align="center"
+        className="page-title"
         sx={{
           paddingTop: isMobile ? 4 : 0.8,
           color: "#ffffff",
