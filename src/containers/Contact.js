@@ -14,8 +14,6 @@ import DialogContentText from "@mui/material/DialogContentText";
 import DialogTitle from "@mui/material/DialogTitle";
 import emailjs from "@emailjs/browser";
 
-import { PageTitle } from "../components/atoms/PageTitle";
-
 export const Contact = () => {
   const form = useRef();
 
@@ -45,7 +43,7 @@ export const Contact = () => {
     emailjs
       .sendForm(
         "service_doq4yxc",
-        "template_3zqd709",
+        "template_wr00kya",
         form.current,
         "ulS302XN5UlvLfEvu"
       )
@@ -131,8 +129,83 @@ export const Contact = () => {
             label="Email"
             type="email"
             variant="outlined"
-            helperText={!!errors.reply_to ? "Please enter a valid email." : ""}
+            helperText={
+              !!errors.reply_to
+                ? "Please enter a valid email so we can contact you."
+                : ""
+            }
             {...register("reply_to", {
+              required: true,
+            })}
+          />
+
+          <TextField
+            error={!!errors.phone}
+            label="Phone Number"
+            type="phone"
+            variant="outlined"
+            helperText={
+              !!errors.phone
+                ? "Please enter a valid phone number so we can contact you."
+                : ""
+            }
+            {...register("phone", {
+              required: true,
+            })}
+          />
+
+          <TextField
+            error={!!errors.event_type}
+            label="Event Type"
+            type="event_type"
+            variant="outlined"
+            helperText={
+              !!errors.event_type ? "Please enter an event type." : ""
+            }
+            {...register("event_type", {
+              required: true,
+            })}
+          />
+
+          <TextField
+            error={!!errors.event_date}
+            label="Event Date"
+            type="event_date"
+            variant="outlined"
+            helperText={
+              !!errors.event_date ? "Please enter an event date." : ""
+            }
+            {...register("event_date", {
+              required: true,
+            })}
+          />
+
+          <TextField
+            error={!!errors.venue}
+            label="Venue Postcode"
+            type="venue"
+            variant="outlined"
+            helperText={
+              !!errors.venue
+                ? "Please enter the postcode of the event venue."
+                : ""
+            }
+            {...register("venue", {
+              required: true,
+            })}
+          />
+
+          <TextField
+            error={!!errors.guests}
+            label="Number of Guests"
+            type="guests"
+            variant="outlined"
+            helperText={
+              !!errors.guests
+                ? "Please enter the approximate number of guests to be catered for."
+                : ""
+            }
+            {...register("guests", {
               required: true,
             })}
           />
