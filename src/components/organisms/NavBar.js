@@ -83,11 +83,15 @@ export const NavBar = ({ navItems }) => {
 
           <Box
             className="nav"
-            sx={{ display: isMobile ? "none" : "flex", fontWeight: 100 }}
+            sx={{
+              display: isMobile ? "none" : "flex",
+              fontWeight: 100,
+            }}
           >
             {navItems.map((item) => (
               <NavLink
                 to={item.href}
+                sx={{ fontFamily: "Burnaby" }}
                 className={({ isActive }) =>
                   isActive ? "link-active" : "link"
                 }

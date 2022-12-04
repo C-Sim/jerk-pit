@@ -37,7 +37,9 @@ export const Footer = ({ footerItems }) => {
           alignItems: "center",
         }}
       >
-        <AvatarBadge image={logo} imageAlt="logo" />
+        <a href={"/"}>
+          <img src={logo} alt={"logo"} width="72px" className="logo" />
+        </a>
         <Typography
           sx={{
             textAlign: "center",

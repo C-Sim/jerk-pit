@@ -3,6 +3,7 @@ import { useForm } from "react-hook-form";
 import Typography from "@mui/material/Typography";
 import TextField from "@mui/material/TextField";
 import Stack from "@mui/material/Stack";
+import Grid from "@mui/material/Grid";
 import Button from "@mui/material/Button";
 import Paper from "@mui/material/Paper";
 import useMediaQuery from "@mui/material/useMediaQuery";
@@ -72,7 +73,7 @@ export const Contact = () => {
         <DialogTitle>Message sent.</DialogTitle>
         <DialogContent>
           <DialogContentText>
-            Thanks for getting in touch...we'll respond as soon as I can!
+            Thanks for getting in touch...we'll respond as soon as we can!
           </DialogContentText>
         </DialogContent>
         <DialogActions>
@@ -106,122 +107,158 @@ export const Contact = () => {
 
       <Divider />
 
-      <Stack
-        component="form"
-        sx={{ p: 3 }}
-        spacing={4}
-        onSubmit={handleSubmit(onSubmit)}
-        ref={form}
-      >
-        <Stack spacing={2}>
-          <TextField
-            error={!!errors.from_name}
-            label="Name"
-            variant="outlined"
-            helperText={!!errors.from_name ? "Please enter a valid name." : ""}
-            {...register("from_name", {
-              required: true,
-            })}
-          />
+      <Stack component="form" onSubmit={handleSubmit(onSubmit)} ref={form}>
+        <Stack>
+          <Grid container>
+            <Grid item mt={1} xs={12} p={1}>
+              <Typography sx={{ pl: 1, fontWeight: 100, color: "#ffffff" }}>
+                Your Details
+              </Typography>
+            </Grid>
 
-          <TextField
-            error={!!errors.reply_to}
-            label="Email"
-            type="email"
-            variant="outlined"
-            helperText={
-              !!errors.reply_to
-                ? "Please enter a valid email so we can contact you."
-                : ""
-            }
-            {...register("reply_to", {
-              required: true,
-            })}
-          />
+            <Grid item mt={1} xs={12} md={4} p={1}>
+              <TextField
+                error={!!errors.from_name}
+                label="Name"
+                variant="outlined"
+                sx={{ width: "100%" }}
+                helperText={
+                  !!errors.from_name ? "Please enter a valid name." : ""
+                }
+                {...register("from_name", {
+                  required: true,
+                })}
+              />
+            </Grid>
 
-          <TextField
-            error={!!errors.phone}
-            label="Phone Number"
-            type="phone"
-            variant="outlined"
-            helperText={
-              !!errors.phone
-                ? "Please enter a valid phone number so we can contact you."
-                : ""
-            }
-            {...register("phone", {
-              required: true,
-            })}
-          />
+            <Grid item mt={1} xs={12} md={4} p={1}>
+              <TextField
+                error={!!errors.reply_to}
+                label="Email"
+                type="email"
+                variant="outlined"
+                sx={{ width: "100%" }}
+                helperText={
+                  !!errors.reply_to
+                    ? "Please enter a valid email so we can contact you."
+                    : ""
+                }
+                {...register("reply_to", {
+                  required: true,
+                })}
+              />
+            </Grid>
 
-          <TextField
-            error={!!errors.event_type}
-            label="Event Type"
-            type="event_type"
-            variant="outlined"
-            helperText={
-              !!errors.event_type ? "Please enter an event type." : ""
-            }
-            {...register("event_type", {
-              required: true,
-            })}
-          />
+            <Grid item mt={1} xs={12} md={4} p={1}>
+              <TextField
+                error={!!errors.phone}
+                label="Phone Number"
+                type="phone"
+                variant="outlined"
+                sx={{ width: "100%" }}
+                helperText={
+                  !!errors.phone
+                    ? "Please enter a valid phone number so we can contact you."
+                    : ""
+                }
+                {...register("phone", {
+                  required: true,
+                })}
+              />
+            </Grid>
 
-          <TextField
-            error={!!errors.event_date}
-            label="Event Date"
-            type="event_date"
-            variant="outlined"
-            helperText={
-              !!errors.event_date ? "Please enter an event date." : ""
-            }
-            {...register("event_date", {
-              required: true,
-            })}
-          />
+            <Grid item mt={1} xs={12} p={1}>
+              <Typography sx={{ pl: 1, fontWeight: 100, color: "#ffffff" }}>
+                Event Details
+              </Typography>
+            </Grid>
 
-          <TextField
-            error={!!errors.venue}
-            label="Venue Postcode"
-            type="venue"
-            variant="outlined"
-            helperText={
-              !!errors.venue
-                ? "Please enter the postcode of the event venue."
-                : ""
-            }
-            {...register("venue", {
-              required: true,
-            })}
-          />
+            <Grid item mt={1} xs={12} md={6} p={1}>
+              <TextField
+                error={!!errors.event_type}
+                label="Event Type"
+                type="event_type"
+                variant="outlined"
+                sx={{ width: "100%" }}
+                helperText={
+                  !!errors.event_type ? "Please enter an event type." : ""
+                }
+                {...register("event_type", {
+                  required: true,
+                })}
+              />
+            </Grid>
 
-          <TextField
-            error={!!errors.guests}
-            label="Number of Guests"
-            type="guests"
-            variant="outlined"
-            helperText={
-              !!errors.guests
-                ? "Please enter the approximate number of guests to be catered for."
-                : ""
-            }
-            {...register("guests", {
-              required: true,
-            })}
-          />
+            <Grid item mt={1} xs={12} md={6} p={1}>
+              <TextField
+                error={!!errors.event_date}
+                label="Event Date"
+                type="event_date"
+                variant="outlined"
+                sx={{ width: "100%" }}
+                helperText={
+                  !!errors.event_date ? "Please enter an event date." : ""
+                }
+                {...register("event_date", {
+                  required: true,
+                })}
+              />
+            </Grid>
 
-          <TextField
-            error={!!errors.message}
-            label="Message"
-            aria-label="minimum height"
-            multiline
-            minRows={4}
-            variant="outlined"
-            helperText={!!errors.message ? "Please enter a valid message." : ""}
-            {...register("message", {
-              required: true,
-            })}
-          />
+            <Grid item mt={1} xs={12} md={6} p={1}>
+              <TextField
+                error={!!errors.venue}
+                label="Venue Postcode"
+                type="venue"
+                variant="outlined"
+                sx={{ width: "100%" }}
+                helperText={
+                  !!errors.venue
+                    ? "Please enter the postcode of the event venue."
+                    : ""
+                }
+                {...register("venue", {
+                  required: true,
+                })}
+              />
+            </Grid>
+
+            <Grid item mt={1} xs={12} md={6} p={1}>
+              <TextField
+                error={!!errors.guests}
+                label="Number of Guests"
+                type="guests"
+                variant="outlined"
+                sx={{ width: "100%" }}
+                helperText={
+                  !!errors.guests
+                    ? "Please enter the approximate number of guests to be catered for."
+                    : ""
+                }
+                {...register("guests", {
+                  required: true,
+                })}
+              />
+            </Grid>
+
+            <Grid item mt={1} xs={12} p={1} mb={1}>
+              <TextField
+                error={!!errors.message}
+                label="Message"
+                aria-label="minimum height"
+                multiline
+                minRows={4}
+                variant="outlined"
+                sx={{ width: "100%" }}
+                helperText={
+                  !!errors.message ? "Please enter a valid message." : ""
+                }
+                {...register("message", {
+                  required: true,
+                })}
+              />
+            </Grid>
+          </Grid>
         </Stack>
 
         <Stack spacing={2}>
