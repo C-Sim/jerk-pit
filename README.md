@@ -4,7 +4,7 @@
 
 React-powered responsive app to advertise the services of a local business.
 
-[Deployed URL](https://floating-river-62141.herokuapp.com/)
+[Deployed URL]()
 
 ## Technologies
 
