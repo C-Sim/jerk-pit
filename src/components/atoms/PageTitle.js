@@ -12,6 +12,7 @@ export const PageTitle = ({ title }) => {
       <Typography
         variant="h3"
         component="h1"
+        class="pageTitle"
         gutterBottom
         align="center"
         sx={{

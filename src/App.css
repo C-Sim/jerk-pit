@@ -6,6 +6,23 @@
   --cjp-light-grey: #aeadad;
 }
 
+@import url(//db.onlinewebfonts.com/c/a7eebfaa6f0a967adf187657ff306d8b?family=Burnaby);
+
+@font-face {
+  font-family: "Burnaby";
+  src: url("//db.onlinewebfonts.com/t/a7eebfaa6f0a967adf187657ff306d8b.eot");
+  src: url("//db.onlinewebfonts.com/t/a7eebfaa6f0a967adf187657ff306d8b.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/a7eebfaa6f0a967adf187657ff306d8b.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/a7eebfaa6f0a967adf187657ff306d8b.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/a7eebfaa6f0a967adf187657ff306d8b.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/a7eebfaa6f0a967adf187657ff306d8b.svg#Burnaby")
+      format("svg");
+}
+
 * {
   font-family: "Work Sans", sans-serif;
   box-sizing: border-box;
@@ -83,6 +100,10 @@ a {
 
 .link {
   color: var(--cjp-light-grey);
+}
+
+.pageTitle {
+  font-family: "Burnaby";
 }
 
 .link-active {
@@ -165,21 +186,4 @@ a:hover {
   .MuiGrid-item {
     padding-left: 0px;
   }
-}
-
-@import url(//db.onlinewebfonts.com/c/a7eebfaa6f0a967adf187657ff306d8b?family=Burnaby);
-
-@font-face {
-  font-family: "Burnaby";
-  src: url("//db.onlinewebfonts.com/t/a7eebfaa6f0a967adf187657ff306d8b.eot");
-  src: url("//db.onlinewebfonts.com/t/a7eebfaa6f0a967adf187657ff306d8b.eot?#iefix")
-      format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/a7eebfaa6f0a967adf187657ff306d8b.woff2")
-      format("woff2"),
-    url("//db.onlinewebfonts.com/t/a7eebfaa6f0a967adf187657ff306d8b.woff")
-      format("woff"),
-    url("//db.onlinewebfonts.com/t/a7eebfaa6f0a967adf187657ff306d8b.ttf")
-      format("truetype"),
-    url("//db.onlinewebfonts.com/t/a7eebfaa6f0a967adf187657ff306d8b.svg#Burnaby")
-      format("svg");
 }
