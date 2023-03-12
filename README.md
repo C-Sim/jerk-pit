@@ -1,6 +1,6 @@
 # Jerk Pit ![MIT](https://img.shields.io/badge/License-MIT-blue)
 
-![WeCare](src/components/atoms/images/WeCare-1_260x60.png)
+![Jerk Pit](src/components/atoms/images/Logo.png)
 
 React-powered responsive app to advertise the services of a local business.
 
