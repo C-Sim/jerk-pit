@@ -104,6 +104,9 @@ a {
 
 .pageTitle {
   font-family: "Burnaby";
+  color: var(--cjp-white);
+  text-align: center;
+  font-size: 3rem;
 }
 
 .link-active {

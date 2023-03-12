@@ -10,7 +10,7 @@ export const PageTitle = ({ title }) => {
   return (
     <Box>
       <Typography
-        variant="h3"
+        // variant="h3"
         component="h1"
         class="pageTitle"
         gutterBottom
@@ -18,7 +18,7 @@ export const PageTitle = ({ title }) => {
         sx={{
           paddingTop: isMobile ? 4 : 0.8,
           color: "#ffffff",
-          fontSize: 48,
+          // fontSize: 64,
           fontFamily: "Burnaby",
         }}
       >
