@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/jerk-pit/static/css/main.39602702.css",
+    "main.js": "/jerk-pit/static/js/main.89a6b7e8.js",
+    "static/media/Platter.jpg": "/jerk-pit/static/media/Platter.30db04748d0363220461.jpg",
+    "static/media/MealMutton.jpg": "/jerk-pit/static/media/MealMutton.580e21694372b13d7b0f.jpg",
+    "static/media/MealMuttonPortrait.jpg": "/jerk-pit/static/media/MealMuttonPortrait.5fb8b1fd8f6bd8b40b65.jpg",
+    "static/media/MealTing.jpg": "/jerk-pit/static/media/MealTing.058398309f7610279488.jpg",
+    "static/media/Meal.jpg": "/jerk-pit/static/media/Meal.1c930e0c7e967ae886bb.jpg",
+    "static/media/FoodBurger.jpg": "/jerk-pit/static/media/FoodBurger.f261a6677feb60faffc0.jpg",
+    "static/media/FoodHake.jpg": "/jerk-pit/static/media/FoodHake.1459e42d78ad62720f76.jpg",
+    "static/media/PlatterTing.jpg": "/jerk-pit/static/media/PlatterTing.79ce6a895feb8134c011.jpg",
+    "static/media/MealChicken.jpg": "/jerk-pit/static/media/MealChicken.681e65fe63330151cbcf.jpg",
+    "static/media/FoodJerk.jpg": "/jerk-pit/static/media/FoodJerk.ae723eb45fc3518c2df5.jpg",
+    "static/media/DrinkRedStripe.jpg": "/jerk-pit/static/media/DrinkRedStripe.1d440a43cd5e68fb399b.jpg",
+    "static/media/MealHake.jpg": "/jerk-pit/static/media/MealHake.b7a32f47de9b38099234.jpg",
+    "static/media/DrinkTropical.jpg": "/jerk-pit/static/media/DrinkTropical.6e810670e3458831cf1f.jpg",
+    "static/media/DrinkMagnum.jpg": "/jerk-pit/static/media/DrinkMagnum.850328676c72065520f3.jpg",
+    "static/media/DrinkSupermalt.jpg": "/jerk-pit/static/media/DrinkSupermalt.d04b0fa6dbd45eeff0ef.jpg",
+    "static/media/DrinkTing.jpg": "/jerk-pit/static/media/DrinkTing.be3f4b63b064700661c6.jpg",
+    "static/media/Review4.png": "/jerk-pit/static/media/Review4.ec74487f560fdc0a8bc0.png",
+    "static/media/StaffHut.png": "/jerk-pit/static/media/StaffHut.8367468b8c070509b4f3.png",
+    "static/media/TrailerPortrait.png": "/jerk-pit/static/media/TrailerPortrait.5555020cf86354f41091.png",
+    "static/media/Logo.png": "/jerk-pit/static/media/Logo.d749d9da430c2b2b79b0.png",
+    "static/media/Staff.png": "/jerk-pit/static/media/Staff.ade0d99ab24d476a9b12.png",
+    "static/media/TrailerStand.jpg": "/jerk-pit/static/media/TrailerStand.6e48365ababd062ab968.jpg",
+    "static/media/TrailerSt.jpg": "/jerk-pit/static/media/TrailerSt.055be680d5b118fc274e.jpg",
+    "static/media/Review3.jpg": "/jerk-pit/static/media/Review3.6057e2f0245d84164f66.jpg",
+    "static/media/Trailer1.jpg": "/jerk-pit/static/media/Trailer1.2a652412a69f7c1d3e87.jpg",
+    "static/media/TrailerBack.jpg": "/jerk-pit/static/media/TrailerBack.4f05946abaf5f7a85ab4.jpg",
+    "static/media/Review1.jpg": "/jerk-pit/static/media/Review1.2ee20ce98850d35bf775.jpg",
+    "static/media/Review2.jpg": "/jerk-pit/static/media/Review2.44c5e99075412d86f5c1.jpg",
+    "static/media/TrailerParty.jpg": "/jerk-pit/static/media/TrailerParty.4f3fda5a0c1c93eb0eae.jpg",
+    "index.html": "/jerk-pit/index.html",
+    "main.39602702.css.map": "/jerk-pit/static/css/main.39602702.css.map",
+    "main.89a6b7e8.js.map": "/jerk-pit/static/js/main.89a6b7e8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39602702.css",
+    "static/js/main.89a6b7e8.js"
+  ]
+}
