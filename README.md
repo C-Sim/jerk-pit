@@ -1,10 +1,8 @@
 # Jerk Pit ![MIT](https://img.shields.io/badge/License-MIT-blue)
 
-![Jerk Pit](src/components/atoms/images/Logo.png)
-
 React-powered responsive app to advertise the services of a local business.
 
-[Deployed URL]()
+[Deployed URL](https://c-sim.github.io/jerk-pit/)
 
 ## Technologies
 
@@ -50,5 +48,5 @@ React-powered responsive app to advertise the services of a local business.
 ```md
 AS A customer who is interested in hiring the business to cater an event
 I WANT to access details on what is included in the service and contact details so I can get in touch
-SO THAT I can make arrange a booking
+SO THAT I can arrange a booking
 ```
