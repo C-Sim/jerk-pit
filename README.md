@@ -1,8 +1,6 @@
 # Jerk Pit ![MIT](https://img.shields.io/badge/License-MIT-blue)
 
-![Jerk Pit](src/components/atoms/images/Logo.png)
-
-React-powered responsive app to advertise the services of a local business.
+WIP React-powered responsive app to advertise the services of a local business.
 
 [Deployed URL](https://floating-river-62141.herokuapp.com/)
 
